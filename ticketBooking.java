@@ -36,6 +36,7 @@ public class ticketBooking {
             //         break;
 
             // }
+            System.out.println("Hello World!");
             int diff = Math.abs(currentSpot - pickup);
             if (diff <= minDistance && startTime >= t.getFreetime() && (startTime - t.getFreetime()) >= diff
                     && (totalEarning > t.getTotalEarning())) {
